@@ -47,10 +47,8 @@ Create a system using a Raspberry Pi 5 with an RTL-SDR to scan marine radio chan
 
 ### 1 Ensure the virtual environment is activated:
 
-    ```bash
     source venv/bin/activate
 
 ### 2 Start the main script:
 
-    ```bash
     python main.py

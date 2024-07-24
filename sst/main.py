@@ -22,6 +22,7 @@ class AudioFileHandler(FileSystemEventHandler):
             audio = AudioSegment.from_file(filepath)
             result = model.transcribe(audio)
             print(f'Transcription for {filepath}: {result["text"]}')
+            os.remove(filepath)  # Delete the file after processing
         except Exception as e:
             logging.error(f'Error processing file {filepath}: {e}')
 

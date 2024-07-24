@@ -40,10 +40,7 @@ Create a system using a Raspberry Pi 5 with an RTL-SDR to scan marine radio chan
    ```bash
    git clone https://github.com/Bloham/MarineRadioTranscription
    cd MarineRadioTranscription/stt
-
-2. Run the install script to set up the environment:
    ./install.sh
-
 
 ### 1 Ensure the virtual environment is activated:
 

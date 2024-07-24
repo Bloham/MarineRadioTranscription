@@ -32,3 +32,25 @@ Create a system using a Raspberry Pi 5 with an RTL-SDR to scan marine radio chan
 ### Performance Optimization:
 - Use smaller Whisper models (e.g., Whisper base or tiny) to reduce computational load.
 - Limit resources using CPU affinity (`taskset`), nice levels (`nice`), and cgroups.
+
+
+## Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Bloham/MarineRadioTranscription
+   cd MarineRadioTranscription/stt
+
+2. Run the install script to set up the environment:
+   ./install.sh
+
+
+### 1 Ensure the virtual environment is activated:
+
+    ```bash
+    source venv/bin/activate
+
+### 2 Start the main script:
+
+    ```bash
+    python main.py

@@ -12,6 +12,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 
 # Download Whisper model
-python -m whisper --model tiny
+# Instead of running a command that expects an audio argument, we download the model using the correct method
+python -c "import whisper; whisper.load_model('tiny')"
 
 echo "Installation complete."
